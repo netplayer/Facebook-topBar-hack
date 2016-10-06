@@ -2,15 +2,11 @@ $(document).ready(function(){
     
     $('#pagelet_bluebar').css({
 
-    	'position':'fixed',
+    	'position':'fixed !important',
     	'z-index':'9999999';
 
     });
-$('#mailview-bottom').remove();
-//$('#topnav').remove();
-//$('#rcenvelope').removeClass('rcenvelopeImg');
-//$('#portal-header').remove();
-//$('#rcenvelope').css('top','0');
+
     
 });
 
